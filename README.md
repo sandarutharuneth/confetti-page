@@ -9,7 +9,7 @@ Download confetti.js file
 
 ### Step 2
 Link the `confetti.js` file to your `html` page
-```js
+```html
 <script src="confetti.js"></script>
 ```
 
