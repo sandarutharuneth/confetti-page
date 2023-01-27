@@ -37,3 +37,8 @@ Place this code inside `<body>`
 
 ### Step 4
 All done! Preview the page now.
+Should look like [this](https://confetti-preview.netlify.app)
+
+<hr>
+
+<h6 align="center">©️ Project Razer</h6>
