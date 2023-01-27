@@ -1,0 +1,71 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: rgb(181,53,255);
+    background: linear-gradient(24deg, rgba(181,53,255,1) 0%, rgba(80,80,255,1) 35%, rgba(58,254,242,1) 100%);  
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    max-width: 364px;
+    padding: 24px;
+    background: white;
+    color: rgb(14, 30, 37);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    transition: 0.2s;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 30px 46px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+  a {
+    margin: 0;
+    font-weight: 600;
+    line-height: 24px;
+    color: #054861;
+  }
+
+  a svg {
+    position: relative;
+    top: 2px;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+
+  a:hover svg path{
+    fill: #007067;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
